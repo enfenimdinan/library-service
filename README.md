@@ -1,6 +1,29 @@
 # Library Service
 A library management application built for learning purposes on Java.
 
+## Run commands
+### Build the project
+Run a clean build and execute all tests:
+```bash
+./mvnw clean verify
+```
+
+### Run the application
+Start the Spring Boot application:
+```bash
+./mvnw spring-boot:run
+```
+By default, the service runs at:
+```text
+http://localhost:8080
+```
+
+### Run tests
+To run the tests:
+```bash
+./mvnw test
+```
+
 ## MVP capabilities
 The first version focuses on six core capabilities:
 
